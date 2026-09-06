@@ -4,6 +4,10 @@ repositories {
 
     // Required for PedroPathing
     maven { url = "https://mymaven.bylazar.com/releases" }
+
+    // Required for SolversLib
+    maven { url "https://repo.dairy.foundation/releases"
+    }
 }
 
 dependencies {
@@ -22,5 +26,8 @@ dependencies {
     implementation 'com.pedropathing:telemetry:1.0.0'
 
     implementation 'com.bylazar:fullpanels:1.0.12'
+
+    // Required for Solvers Lib
+    implementation "org.solverslib:pedroPathing:0.3.5"
 }
 
